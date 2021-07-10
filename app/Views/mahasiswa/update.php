@@ -5,14 +5,14 @@
 $nama = [
     'name' => 'nama',
     'id' => 'nama',
-    'value' => null,
+    'value' => $mahasiswa->nama,
     'class' => 'form-control',
 ];
 
 $nrp = [
     'name' => 'nrp',
     'id' => 'nrp',
-    'value' => null,
+    'value' => $mahasiswa->$nrp,
     'class' => 'form-control',
     'type' => 'number',
     'min' => 0,
@@ -21,35 +21,35 @@ $nrp = [
 $alamat = [
     'name' => 'alamat',
     'id' => 'alamat',
-    'value' => null,
+    'value' => $mahasiswa->alamat,
     'class' => 'form-control',
 ];
 
 $telepon = [
     'name' => 'telepon',
     'id' => 'telepon',
-    'value' => null,
+    'value' => $mahasiswa->telepon,
     'class' => 'form-control',
 ];
 
 $angkatan = [
     'name' => 'angkatan',
     'id' => 'angkatan',
-    'value' => null,
+    'value' => $mahasiswa->angkatan,
     'class' => 'form-control',
 ];
 
 $departemen = [
     'name' => 'departemen',
     'id' => 'departemen',
-    'value' => null,
+    'value' => $mahasiswa->departemen,
     'class' => 'form-control',
 ];
 
 $fakultas = [
     'name' => 'fakultas',
     'id' => 'fakultas',
-    'value' => null,
+    'value' => $mahasiswa->fakultas,
     'class' => 'form-control',
 ];
 
@@ -69,7 +69,7 @@ $submit = [
 ];
 
 ?>
-<h1>Tambah Mahasiswa</h1>
+<h1>Edit Mahasiswa</h1>
 
 <?= form_open_multipart('Mahasiswa/update/' . $mahasiswa->id) ?>
 <div class="form-group mb-3">

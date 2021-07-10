@@ -44,7 +44,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm mb-5" id="mainNav">
         <div class="container px-2">
-            <a class="navbar-brand fw-bold" href="<?= site_url('home/index') ?>">Shippy</a>
+            <a class="navbar-brand fw-bold" href="<?= site_url('home/index') ?>">Mahasiswa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="bi-list"></i>
